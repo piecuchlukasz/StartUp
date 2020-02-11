@@ -35,12 +35,19 @@ hr {
 }
 
 .btn-new:hover {
-	transform: scale(1.1, 1.1);
 	background-color: #F05F44;
 	border-color: #F05F44;
+	transform: scale(1.1, 1.1);
 }
 
 .btn-new:active {
-	background-color: #F05F44;
-	border-color: #F05F44;
+	background-color: #FFA594;
+	border-color: #FFA594;
+	box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+	background-color: #FFA594;
+	border-color: #FFA594;
+	box-shadow: none;
 }
